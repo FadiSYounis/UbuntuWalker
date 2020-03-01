@@ -1,0 +1,26 @@
+#POD definition
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: ubuclass-master
+spec:
+  template:
+    metadata:
+      name: ubuclass-master
+    spec:
+      containers:
+      - name: ubclass-master
+        image: daltenty/ubuclass
+        volumeMounts:
+        - mountPath: /clusterfs
+          name: clusterfs
+        command: ["ruby","/opt/ubuntu_walker/list_run.rb","-s","/clusterfs/ubuntu","-r","redis://10.6.0.76"]
+      restartPolicy: Never
+      volumes:
+        - name: clusterfs
+          hostPath:
+            path: /clusterfs
+            type: Directory
+  backoffLimit: 4
+  #How to run
+  #kubectl create -f ./job.yaml
