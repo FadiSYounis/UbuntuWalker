@@ -1,0 +1,29 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.9.23)
+    io-like (0.3.0)
+    pg (0.18.4)
+    rbzip2 (0.3.0)
+    redis (3.3.5)
+    ruby-filemagic (0.7.2)
+    ruby-xz (0.2.3)
+      ffi (~> 1.9)
+      io-like (~> 0.3)
+    rubysl-zlib (2.0.1)
+    trollop (2.1.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pg (~> 0.18.4)
+  rbzip2 (~> 0.3.0)
+  redis (~> 3.3, >= 3.3.5)
+  ruby-filemagic (~> 0.7.1)
+  ruby-xz (~> 0.2.3)
+  rubysl-zlib (~> 2.0, >= 2.0.1)
+  trollop (~> 2.1, >= 2.1.2)
+
+BUNDLED WITH
+   1.15.4
