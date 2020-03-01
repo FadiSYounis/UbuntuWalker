@@ -1,0 +1,18 @@
+FROM ubuntu:16.04
+
+RUN     apt-get update && \
+        apt-get upgrade -y && \
+        apt-get install -y ruby build-essential libmagic-dev zlib1g-dev && \
+	    apt-get install -y bundler
+	
+RUN apt-get install -y libpq-dev
+RUN apt-get install -y zlib1g-dev
+
+	RUN mkdir -p /opt/ubuntu_walker
+    WORKDIR /opt/ubuntu_walker
+
+	COPY . /opt/ubuntu_walker
+
+	RUN bundle install 	
+
+    CMD ["ruby","/opt/ubuntu_walker/list_run.rb","-s","/opt/ubuntu_walker/ubuntu","-r","redis://redis.icasl"]
