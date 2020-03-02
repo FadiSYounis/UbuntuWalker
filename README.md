@@ -72,10 +72,25 @@ clone this repository:
 ```
 git clone https://github.com/FadiSYounis/UbuntuWalker
 ```
-Running the walker with no docker on a single node
+##Running the walker with no Kurbernetes, on a single node:
+#to read Ubuntu archive files
 ```
+Options:
+         --http-1-0, -h:   Force HTTP/1.0
+         --http-1-1, -t:   Force HTTP/1.1
+     --hide-referer, -i:   Hide referer (default: true)
+  --connections, -c :   Set number of simultaneous connections (default: 2)
+             --help, -e:   Show this message
 ```
-
+#to dump newly created code files into folders
+```
+Options:
+         --http-1-0, -h:   Force HTTP/1.0
+         --http-1-1, -t:   Force HTTP/1.1
+     --hide-referer, -i:   Hide referer (default: true)
+  --connections, -c :   Set number of simultaneous connections (default: 2)
+             --help, -e:   Show this message
+```
 ### Running using Docker 
 
 A step by step series of examples that tell you have to get a development env running
