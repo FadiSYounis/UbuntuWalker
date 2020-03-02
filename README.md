@@ -72,6 +72,9 @@ clone this repository:
 ```
 git clone https://github.com/FadiSYounis/UbuntuWalker
 ```
+Running the walker with no docker on a single node
+```
+```
 
 ### Running using Docker 
 
