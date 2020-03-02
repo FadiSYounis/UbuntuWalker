@@ -1,17 +1,17 @@
-### Motivation
+## Motivation
 Ubuntu Walker is a program that takes the Linux operating system source code as an input parameter. The Ubuntu archives are then mined and the source code files are extracted. This script was used to generate the LSC (Linux-Source-Code) Machine Learning Dataset.  The main reason for building this program was was ability to quickly generate a dataset for source-code classifiers. 
 
 🚧 Do not bother running if you don't have a GPU. The dataset is completely safe to use. 
 
-### Don't want to run our script, and just want the dataset? 
+## Don't want to run our script, and just want the dataset? 
 The full dataset, is available from (https://drive.google.com/open?id=1YGA1EytPcmc84yfYABdInMXsLBoz82M4).
 
-### What does it do
+## What does it do
 * Extracts source code files from .tar archive files in the Linux operating system. tar archives supported are .bz2, .xz, .gz
 * Classifies the extracted files depending on file extension and stores them in corresponding folder.
 * Currently classified file types supported are: Java, C, C++, Ruby, Python, JavaScript.
 
-### Dataset Summary 
+## Dataset Summary 
 There are six different source code folders generated from this script, A short summary of the dataset is provided below:
 * Java Source Code folder - contains 1 source code files.   
 * C Source Code folder - contains 1 source code files. 
@@ -22,39 +22,39 @@ There are six different source code folders generated from this script, A short 
 
 Please refer to the dataset (https://drive.google.com/open?id=1YGA1EytPcmc84yfYABdInMXsLBoz82M4) for more details. 
 
-### Methods
-##  FileWalker Class
+## Classes and Methods
+#  FileWalker Class
 | Method        | Functionality
 | :------------ |:---------------:|
 | col 3 is      | some wordy text |
 | col 2 is      | centered        |
 | zebra stripes | are neat        |
 
-##  Information_Runner Class
+#  Information_Runner Class
 | Method        | Functionality
 | :------------ |:---------------:|
 | col 3 is      | some wordy text |
 | col 2 is      | centered        |
 | zebra stripes | are neat        |
 
-##  ListRun Class
+#  ListRun Class
 | Method        | Functionality
 | :------------ |:---------------:|
 | info_run      | some wordy text |
 
 
-##  ListRun Class
+#  ListRun Class
 | Method        | Functionality
 | :------------ |:---------------:|
 | run     | some wordy text |
 
-##  Runner Class
+#  Runner Class
 | Method        | Functionality
 | :------------ |:---------------:|
 | initialize    | some wordy text |
 
 
-##  TarWalker Class
+#  TarWalker Class
 | Method        | Functionality
 | :------------ |:---------------:|
 | tarEntryProcessor| some wordy text |
@@ -62,11 +62,11 @@ Please refer to the dataset (https://drive.google.com/open?id=1YGA1EytPcmc84yfYA
 | tar_reader    | tar_reader 
 | tarExtractor | are neat        |
 
-### Getting Started
+## Getting Started
 
 These instructions will generate a copy of the dataset on your local machine for development and testing purposes. See below for details on how to run:
 
-### Installation
+## Installation
 
 clone this repository:
 ```
