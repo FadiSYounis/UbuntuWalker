@@ -30,6 +30,41 @@ Please refer to the dataset (https://drive.google.com/open?id=1YGA1EytPcmc84yfYA
 | col 2 is      | centered        |
 | zebra stripes | are neat        |
 
+##  Information_Runner Class
+| Method        | Functionality
+| :------------ |:---------------:|
+| col 3 is      | some wordy text |
+| col 2 is      | centered        |
+| zebra stripes | are neat        |
+
+##  ListRun Class
+| Method        | Functionality
+| :------------ |:---------------:|
+| col 3 is      | some wordy text |
+| col 2 is      | centered        |
+| zebra stripes | are neat        |
+
+##  ListRun Class
+| Method        | Functionality
+| :------------ |:---------------:|
+| col 3 is      | some wordy text |
+| col 2 is      | centered        |
+| zebra stripes | are neat        |
+
+##  Runner Class
+| Method        | Functionality
+| :------------ |:---------------:|
+| col 3 is      | some wordy text |
+| col 2 is      | centered        |
+| zebra stripes | are neat        |
+
+##  TarWalker Class
+| Method        | Functionality
+| :------------ |:---------------:|
+| col 3 is      | some wordy text |
+| col 2 is      | centered        |
+| zebra stripes | are neat        |
+
 ### Getting Started
 
 These instructions will generate a copy of the dataset on your local machine for development and testing purposes. See below for details on how to run:
