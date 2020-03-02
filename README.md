@@ -72,8 +72,8 @@ clone this repository:
 ```
 git clone https://github.com/FadiSYounis/UbuntuWalker
 ```
-#Running the walker with no Kurbernetes, on a single node:
-#to read Ubuntu archive files
+## Running the walker with no Kurbernetes, on a single node:
+# Read-In Ubuntu archive files
 ```
 Options:
          --http-1-0, -h:   Force HTTP/1.0
@@ -82,7 +82,16 @@ Options:
   --connections, -c :   Set number of simultaneous connections (default: 2)
              --help, -e:   Show this message
 ```
-#to dump newly created code files into folders
+# untar Ubuntu archive files
+```
+Options:
+         --http-1-0, -h:   Force HTTP/1.0
+         --http-1-1, -t:   Force HTTP/1.1
+     --hide-referer, -i:   Hide referer (default: true)
+  --connections, -c :   Set number of simultaneous connections (default: 2)
+             --help, -e:   Show this message
+```
+# Dump newly created code files into folders
 ```
 Options:
          --http-1-0, -h:   Force HTTP/1.0
