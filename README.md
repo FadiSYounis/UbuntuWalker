@@ -7,8 +7,8 @@ The full dataset, is available from (https://drive.google.com/open?id=1YGA1EytPc
 
 ### what does it do
 * Extracts source code files from .tar archive files in the Linux operating system. tar archives supported are .bz2, .xz, .gz
-* classifies the extracted files depending on file extension and stores them in corresponding folder
-* Currently classified file types supported are: Java, C, C++, Ruby, Python, JavaScript
+* classifies the extracted files depending on file extension and stores them in corresponding folder.
+* Currently classified file types supported are: Java, C, C++, Ruby, Python, JavaScript.
 
 ### Dataset Summary 
 There are six different source code folders generated from this script, A short summary of the dataset is provided below:
