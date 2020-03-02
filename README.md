@@ -72,11 +72,9 @@ clone this repository:
 ```
 git clone https://github.com/FadiSYounis/UbuntuWalker
 ```
-## Make File
+Run Make File
 ```
-### Running using Docker 
-```
-docker build -t daltenty/ubuclass -f Dockerfile.master src/
+docker build -t /path/to/ubuclass -f Dockerfile.master src/
 ```
 
 ## Built With
