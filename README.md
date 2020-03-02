@@ -1,7 +1,7 @@
 ### Motivation
 Ubuntu Walker is a program that takes the Linux operating system source code as an input parameter. The Ubuntu archives are then mined and the source code files are extracted. This script was used to generate the LSC (Linux-Source-Code) Machine Learning Dataset.  The main reason for building this program was was ability to quickly generate a dataset for source-code classifiers. 
 
-🚧 Warning This code was an experiment for the Spring of 2018, and is not for production use. However, the dataset is completely safe to use. 
+🚧 Do not bother running if you don't have a GPU. The dataset is completely safe to use. 
 
 ### Don't want to run our script, and just want the dataset? 
 The full dataset, is available from (https://drive.google.com/open?id=1YGA1EytPcmc84yfYABdInMXsLBoz82M4).
@@ -76,7 +76,10 @@ Run Make File
 ```
 docker build -t [/path/to/ubuclass] -f Dockerfile.master src/
 ```
-
+Running in Kubernetes
+```
+kubectl create -f ./job.yaml
+```
 ## Built With
 
 * [Ruby](https://www.ruby-lang.org/en/) - Ruby version 2.0.0-p648
