@@ -74,7 +74,7 @@ git clone https://github.com/FadiSYounis/UbuntuWalker
 ```
 Run Make File
 ```
-docker build -t /path/to/ubuclass -f Dockerfile.master src/
+docker build -t **/path/to/ubuclass** -f Dockerfile.master src/
 ```
 
 ## Built With
