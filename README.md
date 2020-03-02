@@ -1,6 +1,6 @@
 # Ubuntu Walker
 
-Ubuntu Walker is a Ruby script that mines the Linux operating system source code archives and extracts source code files. 
+Ubuntu Walker is a program that mines the Linux operating system source code archives and extracts source code files. 
 
 This script was used to generate the LSC (Linux-Source-Code) Machine Learning Dataset. 
 
