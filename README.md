@@ -1,6 +1,6 @@
 # Ubuntu Walker
 
-Ubuntu Walker is a program that mines the Linux operating system source code archives and extracts source code files. This script was used to generate the LSC (Linux-Source-Code) Machine Learning Dataset. Further information on the dataset contents and conversion process can be found in the paper available at
+Ubuntu Walker is a program that mines the Linux operating system source code archives and extracts source code files. This script was used to generate the LSC (Linux-Source-Code) Machine Learning Dataset. 
 
 ### Don't want to run our script, and just want the dataset?
 The full dataset, is available from (https://drive.google.com/open?id=1YGA1EytPcmc84yfYABdInMXsLBoz82M4)
