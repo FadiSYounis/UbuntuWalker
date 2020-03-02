@@ -21,6 +21,14 @@ There are six different source code folders generated from this script, A short 
 * JavaScript  Source Code folder - contains 1 source code files. 
 
 Please refer to the dataset (https://drive.google.com/open?id=1YGA1EytPcmc84yfYABdInMXsLBoz82M4) for more details. 
+
+### Methods
+| Method        | Functionality
+| :------------ |:---------------:|
+| col 3 is      | some wordy text |
+| col 2 is      | centered        |
+| zebra stripes | are neat        |
+
 ### Getting Started
 
 These instructions will generate a copy of the dataset on your local machine for development and testing purposes. See below for details on how to run:
