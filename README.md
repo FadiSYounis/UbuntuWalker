@@ -23,6 +23,7 @@ There are six different source code folders generated from this script, A short 
 Please refer to the dataset (https://drive.google.com/open?id=1YGA1EytPcmc84yfYABdInMXsLBoz82M4) for more details. 
 
 ### Methods
+##  FileWalker Class
 | Method        | Functionality
 | :------------ |:---------------:|
 | col 3 is      | some wordy text |
