@@ -28,7 +28,7 @@ These instructions will generate a copy of the dataset on your local machine for
 
 clone this repository:
 ```
-Give examples
+git clone https://github.com/FadiSYounis/UbuntuWalker
 ```
 
 ### Running using Docker 
