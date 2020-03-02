@@ -79,6 +79,8 @@ Options:
          --source, -s:     untar ubuntu archive code files from here - default is /ubuntu/
          --redis-url, -r:  specify the Redis queue URL - default is https://127.0.0.1:6379
              --help, -e:   Show this message
+             
+ruby /opt/ubuntu_walker/list_run.rb -s /opt/ubuntu_walker/ubuntu -r redis://redis.icasl
 ```
 # Read-In Ubuntu archive files
 ```
