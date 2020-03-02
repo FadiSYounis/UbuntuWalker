@@ -61,9 +61,10 @@ Please refer to the dataset (https://drive.google.com/open?id=1YGA1EytPcmc84yfYA
 ##  TarWalker Class
 | Method        | Functionality
 | :------------ |:---------------:|
-| col 3 is      | some wordy text |
-| col 2 is      | centered        |
-| zebra stripes | are neat        |
+| tarEntryProcessor!    | some wordy text |
+| pathCreator   | centered        |
+| tar_reader    | tar_reader 
+| tarExtractor | are neat        |
 
 ### Getting Started
 
