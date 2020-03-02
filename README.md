@@ -72,7 +72,7 @@ clone this repository:
 ```
 git clone https://github.com/FadiSYounis/UbuntuWalker
 ```
-##Running the walker with no Kurbernetes, on a single node:
+#Running the walker with no Kurbernetes, on a single node:
 #to read Ubuntu archive files
 ```
 Options:
