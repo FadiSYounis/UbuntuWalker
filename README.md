@@ -72,51 +72,12 @@ clone this repository:
 ```
 git clone https://github.com/FadiSYounis/UbuntuWalker
 ```
-## Running the walker with no Kurbernetes, on a single node:
-# untar Ubuntu archive files
-```
-Options:
-         --source, -s:     untar ubuntu archive code files from here - default is /ubuntu/
-         --redis-url, -r:  specify the Redis queue URL - default is https://127.0.0.1:6379
-             --help, -e:   Show this message
-             
-ruby /opt/ubuntu_walker/list_run.rb -s /opt/ubuntu_walker/ubuntu/ -r redis://redis.icasl
-```
-# Read-In Ubuntu archive files
-```
-Options:
-         --dump, -d:       read Code files into this location - default is /dump/
-         --redis-url, -r:  specify the Redis queue URL - default is https://127.0.0.1:6379
-             --help, -e:   Show this message
-```
-# Dump newly created code files into folders
-```
-Options:
-         --dump, -d:       dump Code files into this location - default is /dump/
-         --redis-url, -r:  specify the Redis queue URL - default is https://127.0.0.1:6379
-             --help, -e:   Show this message
-
-ruby /opt/ubuntu_walker/runner.rb -d /tmp/dump/ -r redis://redis.icasl
+## Make File
 ```
 ### Running using Docker 
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
 ```
-Give the example
+docker build -t daltenty/ubuclass -f Dockerfile.master src/
 ```
-
-And repeat
-
-```
-until finished
-```
-
-## Deployment
-
-David add this
 
 ## Built With
 
