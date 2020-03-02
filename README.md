@@ -40,28 +40,24 @@ Please refer to the dataset (https://drive.google.com/open?id=1YGA1EytPcmc84yfYA
 ##  ListRun Class
 | Method        | Functionality
 | :------------ |:---------------:|
-| col 3 is      | some wordy text |
-| col 2 is      | centered        |
-| zebra stripes | are neat        |
+| info_run      | some wordy text |
+
 
 ##  ListRun Class
 | Method        | Functionality
 | :------------ |:---------------:|
-| col 3 is      | some wordy text |
-| col 2 is      | centered        |
-| zebra stripes | are neat        |
+| run     | some wordy text |
 
 ##  Runner Class
 | Method        | Functionality
 | :------------ |:---------------:|
-| col 3 is      | some wordy text |
-| col 2 is      | centered        |
-| zebra stripes | are neat        |
+| initialize    | some wordy text |
+
 
 ##  TarWalker Class
 | Method        | Functionality
 | :------------ |:---------------:|
-| tarEntryProcessor!    | some wordy text |
+| tarEntryProcessor| some wordy text |
 | pathCreator   | centered        |
 | tar_reader    | tar_reader 
 | tarExtractor | are neat        |
