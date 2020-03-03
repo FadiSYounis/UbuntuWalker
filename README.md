@@ -13,12 +13,11 @@ The full dataset, is available from (https://drive.google.com/open?id=1YGA1EytPc
 
 ## Dataset Summary 
 There are six different source code folders generated from this script, A short summary of the dataset is provided below:
-* Java Source Code folder - contains 1 source code files.   
-* C Source Code folder - contains 1 source code files. 
-* C++ Source Code folder - contains 1 source code files. 
-* Ruby Source Code folder - contains 1 source code files. 
-* Python Source Code folder - contains 1 source code files. 
-* JavaScript  Source Code folder - contains 1 source code files. 
+* Java Source Code folder - contains 748370 source code files, avg. file size 8.6 KB, max-file size is 5.7 MB, max-file line count is 159251.   
+* C Source Code folder - contains 1459287 source code files, avg. file size 24 KB,  max-file size is 30 KB,  max-file line count is. 
+* C++ Source Code folder - contains 1392715 source code files, avg. file size 17 KB,  max-file size is 30 KB  max-file line count is 422855 . 
+* Ruby Source Code folder - contains 175338 source code files, avg. file size is 4.6 KB, max-file size is 3 KB,  max-file line count is 79525. 
+* Python Source Code folder - contains 666157 source code files, avg. file size is 12.6 KB,  max-file size is 15.6 KB,  min-file line count is 238295 . 
 
 Please refer to the dataset (https://drive.google.com/open?id=1YGA1EytPcmc84yfYABdInMXsLBoz82M4) for more details. 
 
