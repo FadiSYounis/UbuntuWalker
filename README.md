@@ -57,10 +57,10 @@ Please refer to the dataset (https://drive.google.com/open?id=1YGA1EytPcmc84yfYA
 #  TarWalker Class
 | Method        | Functionality
 | :------------ |:---------------:|
-| tarEntryProcessor| some wordy text |
-| pathCreator   | centered        |
-| tar_reader    | tar_reader 
-| tarExtractor | are neat        |
+| tarEntryProcessor| extracts the source code files from the archive source, checks the file extension and places the file in the respective destination folder|
+| pathCreator   | due to sheer number of files, there might be collision. This method generates a SHA256 random number and assigns it to the file      |
+| tar_reader    | reads in the archive compression coming in from the .gz, .bz2, .bz compression streams
+| tarExtractor | assigns the archive to the stream, based on its on extension (.gz, .bz2, .bz) |
 
 ## Getting Started
 
@@ -72,11 +72,11 @@ clone this repository:
 ```
 git clone https://github.com/FadiSYounis/UbuntuWalker
 ```
-Run Make File
+Run Make File:
 ```
 docker build -t [/path/to/ubuclass] -f Dockerfile.master src/
 ```
-Running in Kubernetes
+Running in Kubernetes:
 ```
 kubectl create -f ./job.yaml
 ```
