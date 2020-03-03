@@ -19,7 +19,7 @@ There are six different source code folders generated from this script, A short 
 * Ruby Source Code folder - contains 175338 source code files, avg. file size is 4.6 KB, max-file size is 3 KB,  max-file line count is 79525. 
 * Python Source Code folder - contains 666157 source code files, avg. file size is 12.6 KB,  max-file size is 15.6 KB,  min-file line count is 238295 . 
 
-Please refer to the dataset (https://drive.google.com/open?id=1YGA1EytPcmc84yfYABdInMXsLBoz82M4) for more details. 
+Please refer to the COMMANDS file above for more statistical information.  
 
 ## Classes and Methods
 #  FileWalker Class
