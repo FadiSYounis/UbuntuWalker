@@ -26,34 +26,19 @@ Please refer to the dataset (https://drive.google.com/open?id=1YGA1EytPcmc84yfYA
 #  FileWalker Class
 | Method        | Functionality
 | :------------ |:---------------:|
-| col 3 is      | some wordy text |
-| col 2 is      | centered        |
-| zebra stripes | are neat        |
-
-#  Information_Runner Class
-| Method        | Functionality
-| :------------ |:---------------:|
-| col 3 is      | some wordy text |
-| col 2 is      | centered        |
-| zebra stripes | are neat        |
+| initialize   | estalishes a connection to the generated datasets to perform statistical operations on |
+| FileInfoExtractor     | gets size and line of code from each file in each destination folder and stores them in a SQL server |
+| folder_processor |    runs file info extractor for each file in the destination folder     |
 
 #  ListRun Class
 | Method        | Functionality
 | :------------ |:---------------:|
-| info_run      | some wordy text |
-
-
-#  ListRun Class
-| Method        | Functionality
-| :------------ |:---------------:|
-| run     | some wordy text |
+| info_run      | reads the code files the untard files and places them in a new redis queue, pops the files off the qeueu and extracts the source code from the file. |
 
 #  Runner Class
 | Method        | Functionality
 | :------------ |:---------------:|
-| initialize    | some wordy text |
-
-
+| initialize    | creates a new redis queue, and creates destinations folder ror the source code files and extract the tars |
 #  TarWalker Class
 | Method        | Functionality
 | :------------ |:---------------:|
