@@ -37,7 +37,7 @@ Please refer to the COMMANDS file above for more statistical information.
 #  Runner Class
 | Method        | Functionality
 | :------------ |:---------------:|
-| initialize    | creates a new redis queue, and creates destinations folders for the source code files and extract the tar arhives |
+| initialize    | creates a new redis queue, and creates destinations folders for the source code files and extract the tar archives |
 #  TarWalker Class
 | Method        | Functionality
 | :------------ |:---------------:|
