@@ -26,7 +26,7 @@ Please refer to the dataset (https://drive.google.com/open?id=1YGA1EytPcmc84yfYA
 #  FileWalker Class
 | Method        | Functionality
 | :------------ |:---------------:|
-| initialize   | <div style="text-align: right"> estalishes a connection to the generated datasets to perform statistical operations on the files </div>|
+| initialize   | eestalishes a connection to the generated datasets to perform statistical operations on the files |
 | FileInfoExtractor     | gets size and line of code from each file in each destination folder and stores them in a SQL server |
 | folder_processor |    runs file info extractor for each file in the destination folder     |
 
