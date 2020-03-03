@@ -26,26 +26,26 @@ Please refer to the dataset (https://drive.google.com/open?id=1YGA1EytPcmc84yfYA
 #  FileWalker Class
 | Method        | Functionality
 | :------------ |:---------------:|
-| initialize   | estalishes a connection to the generated datasets to perform statistical operations on |
+| initialize   | <div style="text-align: right"> estalishes a connection to the generated datasets to perform statistical operations on the files </div>|
 | FileInfoExtractor     | gets size and line of code from each file in each destination folder and stores them in a SQL server |
 | folder_processor |    runs file info extractor for each file in the destination folder     |
 
 #  ListRun Class
 | Method        | Functionality
 | :------------ |:---------------:|
-| info_run      | reads the code files the untard files and places them in a new redis queue, pops the files off the qeueu and extracts the source code from the file. |
+| info_run      | reads the code files the untard files and places them in a new redis queue, pops the files off the qeueu and extracts the source code from each file. |
 
 #  Runner Class
 | Method        | Functionality
 | :------------ |:---------------:|
-| initialize    | creates a new redis queue, and creates destinations folder ror the source code files and extract the tars |
+| initialize    | creates a new redis queue, and creates destinations folders for the source code files and extract the tar arhives |
 #  TarWalker Class
 | Method        | Functionality
 | :------------ |:---------------:|
-| tarEntryProcessor| extracts the source code files from the archive source, checks the file extension and places the file in the respective destination folder|
-| pathCreator   | due to sheer number of files, there might be collision. This method generates a SHA256 random number and assigns it to the file      |
-| tar_reader    | reads in the archive compression coming in from the .gz, .bz2, .bz compression streams
-| tarExtractor | assigns the archive to the stream, based on its on extension (.gz, .bz2, .bz) |
+| tarEntryProcessor| extracts the source-code files from the archive sources, checks the file extension and places the file in the respective destination folder (C, C++, Java, Python, Ruby)|
+| pathCreator   | due to sheer number of files, there might be a name collision. This method generates a SHA256 random number and adds it to the file name      |
+| tar_reader    | reads in the compressed archive folders coming in from the .gz, .bz2, .bz compression streams
+| tarExtractor | assigns the archive to the a decompression stream, based on its on extension (.gz, .bz2, .bz) |
 
 ## Getting Started
 
